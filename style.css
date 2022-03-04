@@ -1,0 +1,80 @@
+ body {
+     font-family: 'consoles', Arial, Helvetica, sans-serif
+ }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.flex-container-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-2-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: flex-end;
+}
+
+.flex-container-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:40px;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+
+span {
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid red;
+    width: 40px;
+    margin: 5px;
+    padding-bottom:10px;
+    font-size:25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 150px;
+
+}
+
+button {
+    margin:5px;
+    width:35px;
+    padding: 10px 0;
+    background-color: rgb(29, 44, 129);
+    color:#FFF;
+    border:1px solid rgb(32, 32, 116);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size:10px;
+    cursor:pointer;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: rgb(32, 78, 139);
+}
+
+
+.certa, .certa:hover {
+    background-color: rgb(61, 111, 175);
+    border: 1px solid rgb(61, 111, 175);
+    cursor: inherit;
+}
+
+.errada, .errada:hover {
+    background-color: red;
+    border: 1px solid red;
+}
